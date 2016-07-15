@@ -1,5 +1,5 @@
-# just learning Ruby on Rails and github
+# Just learning Ruby on Rails and github.
 
-simple app like a pinterest
+Simple app like a pinterest.
 
-going through course "onemonthrails"
+Going through course "onemonthrails".
