@@ -1,4 +1,5 @@
 <nav class="navbar navbar-default">
+<div class="container">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -8,7 +9,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">Pinterest</a>
+     <%= link_to "Pinterest", root_path, class: "navbar-brand", :style=>"color:#d9534f;" %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -17,10 +18,11 @@
       <ul class="nav navbar-nav navbar-right">
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About", about_path %></li>
-        
+        <li><%= link_to "What is next", next_path %></li>
 
         </li>
       </ul>
     </div><!-- /.navbar-collapse -->
   </div><!-- /.container-fluid -->
+  </div>
 </nav>
