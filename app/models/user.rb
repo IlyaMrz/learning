@@ -6,8 +6,9 @@ class User < ActiveRecord::Base
 
 
    #Password complexityy ~~~~~~~~~~
-  #attr_accessor :password
- # validates :password, :presence => true,
-  #		               :format => {:with => /(?=.*[a-z])(?=.*[A-Z])/}
+  attr_accessor :password, :email,:name
+  validates :password, :presence => true,
+  		               :format => {:with => /(?=.*[a-z])(?=.*[A-Z])/}
+
 
 end

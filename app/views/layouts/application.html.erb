@@ -17,7 +17,9 @@
 	<% flash.each do |name, msg| %>
 	<%= content_tag(:div, msg, class: "alert alert-info") %>
 	<% end %>
+	<div class="container", style="width:80%" %>
 <%= yield %>
+</div>
 </div>
 </div>
 </body>
