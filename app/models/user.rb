@@ -3,4 +3,11 @@ class User < ActiveRecord::Base
   # :confirmable, :lockable, :timeoutable and :omniauthable
   devise :database_authenticatable, :registerable,
          :recoverable, :rememberable, :trackable, :validatable
+
+
+   #Password complexityy ~~~~~~~~~~
+  #attr_accessor :password
+ # validates :password, :presence => true,
+  #		               :format => {:with => /(?=.*[a-z])(?=.*[A-Z])/}
+
 end
