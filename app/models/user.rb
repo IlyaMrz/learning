@@ -10,5 +10,5 @@ class User < ActiveRecord::Base
   validates :password, :presence => true,
   		               :format => {:with => /(?=.*[a-z])(?=.*[A-Z])/}
 
-
+  has_many :pins
 end
