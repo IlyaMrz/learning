@@ -6,7 +6,7 @@ ruby '2.3.1'
 gem 'rails', '4.2.6'
 gem 'devise', '~> 4.2'
 gem 'simple_form'
-
+gem "paperclip", "~> 5.0.0"
 # Use sqlite3 as the database for Active Record
 
 
